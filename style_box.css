@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+
+body
+
+{
+	margin: 0;
+	padding: 0;
+	/*background: url(gneral/bg/purplebubble.jpg);*/
+	background: #3498DB;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+h1
+
+{
+ 	margin: 0 0 10px;
+	padding: 0;
+	color: #fff;
+	font-size: 24px;
+	cursor: default;
+
+}
+
+.box
+
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	transform: translate(-50%,-50%);
+}
+
+input
+{
+	position: relative;
+	display: inline-block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	box-sizing: border-box;
+	transition: .5s;
+}
+
+input[type="text"]
+{
+	background:#fff;
+	font-size: 15px;
+	width: 340px;
+	height: 50px;
+	border: none;
+	outline: none;
+	padding: 0 25px;
+	border-radius: 25px 0 0 25px;
+}
+
+
+input[type="submit"]
+{
+	position: relative;
+	left: -5px;
+	font-size: 20px;
+	border-radius: 0 25px 25px 0;
+	width: 150px;
+	height: 50px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: #ffc107;
+	color: #fff;
+	
+}
+
+
+input[type="submit"]:hover
+{
+	background: #ff5722;	
+}
+
+
+.box__copyright{
+
+	position: absolute;
+	top: 90%;
+	right: 5%;
+	font-size: 14px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	cursor: default;
+
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #F2F3F4;
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+body
+
+{
+	margin: 0;
+	padding: 0;
+	background: #A569BD;
+	font-family: sans-serif;
+}
+
+
+.box
+
+{
+	position: absolute;
+	width: 500px;
+	transform: translate(-50%,-50%);
+}
+
+
+h1
+
+{
+ 	margin: 0 0 10px;
+	padding: 0;
+	color: #fff;
+	font-size: 44px;
+	cursor: default;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

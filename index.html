@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="es">
+<head> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<link rel="shortcut icon" href="espiral.ico" type="image/x-icon">
+<title>Home</title>
+<script src='patito.js'></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style_box.css">
+
+</head>
+
+<body>
+
+
+  <section class="showcase">
+    <video src="pecera.mp4" muted loop autoplay></video>
+    
+
+
+
+
+
+
+<div class="overlay"></div>
+ <!-- inicia seccion caja de búsqueda -->
+
+<div class="box">
+<h1>Welcome!</h1>
+
+<form name="form">
+
+<input type="text" id="idkey" name="key" placeholder="Keyword"> 
+
+<input onclick="go()" type="submit" value="Access">
+
+</form> 
+
+ <!-- inicia seccion para agregar keys enlaces general -->
+
+<script language="JavaScript"> 
+function go() {
+var keyin = document.getElementById("idkey").value;
+
+switch(keyin){
+
+	case 'google': case 'goo':case 'buscar': window.open("https://www.google.com");break;
+	
+	case 'usam': case 'Usam': case 'USAM': window.open("https://www.usam.edu.sv/");break;
+	case 'tesis': case 'Tesis': case 'TESIS': window.open("https://jdlarios.xyz/TFGesp/index_TFGsite.html");break;
+
+	case 'teams': case 'Teams':case 'TEAMS': window.open("https://login.microsoftonline.com/common/oauth2/v2.0/authorize?response_type=id_token&scope=openid%20profile&client_id=5e3ce6c0-2b1f-4285-8d4b-75ee78787346&redirect_uri=https%3A%2F%2Fteams.microsoft.com%2Fgo&state=eyJpZCI6Ijg2ZTg5YzE4LTgxODctNGM4MC1hOWZkLTM2ODllNDZlMTJhNiIsInRzIjoxNjU5ODMwODk0LCJtZXRob2QiOiJyZWRpcmVjdEludGVyYWN0aW9uIn0%3D&nonce=888dd599-01cb-4fcb-9acb-4c34f8f3ff22&client_info=1&x-client-SKU=MSAL.JS&x-client-Ver=1.3.4&client-request-id=ae3e5dee-6838-47e2-947e-bb4e95add994&response_mode=fragment");break;
+	
+	case 'clima': case 'Clima': case 'CLIMA': window.open("https://wttr.in/");break;
+	case '5': window.open("");break;
+		
+	case 'CAL': case 'cal': case 'Cal': case 'calendario': case 'Calendario': case 'CALENDARIO': window.open("https://www.usam.edu.sv/universidad/calendario-academico/calendario/eventospormes/");break;
+	case '5': window.open("");break;		
+	
+	default: alert(keyin + ": Key no registrada.");
+}}
+
+</script>  
+</div>
+
+<!-- finaliza seccion para agregar keys enlaces general -->
+<!-- finaliza seccion caja de búsqueda -->
+  
+ <footer>
+<div class="box__copyright">
+            
+<p> 
+<script type="text/javascript">
+copyright=new Date();
+update=copyright.getFullYear();
+document.write("©" + update + " " );
+</script><b>Platensis.org</b>
+</p>
+	
+</div>
+</footer>
+  </section>
+  
+
+
+</body>
+</html>
